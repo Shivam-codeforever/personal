@@ -217,6 +217,7 @@ html{
     color: #37517e;
     font-weight: bold;
     font-family: "Jost",sans-serif;
+    overflow: hidden;
 }
 
 .about h1::before {
@@ -256,6 +257,8 @@ html{
     background-color: aliceblue;
     overflow: hidden;
     text-align: center;
+    height: auto;
+    padding-bottom:2em ;
 }
 
 .publication h1{
@@ -266,6 +269,7 @@ html{
     color: #37517e;
     font-weight: bold;
     font-family: "Jost",sans-serif;
+    overflow: hidden;
     /* border: 2px solid black; */
 }
 .publication h1::before {
@@ -302,8 +306,8 @@ html{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    height: 190vh;
-    justify-content: space-evenly;
+    height: auto;
+    justify-content: space-between;
     align-items: center;
 }
 .box{
@@ -321,6 +325,7 @@ html{
 .box h2{
     text-align: left;
     color: #37517e;
+    overflow: hidden;
 }
 .box p{
     text-align: justify;
@@ -330,7 +335,8 @@ html{
 }
 .box img{
     width: 20vw;
-    height: 10vh;
+    height: auto;
+
 }
 
 .conn{
@@ -348,13 +354,15 @@ html{
 .connection{
     /* border: 2px solid black; */
     width: 100%;
-    height: 100%;
+    height: auto;
+    padding: 2em 0;
     text-align: center;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow: hidden;
 }
 .connection h1{
     font-size: 1.75em;
@@ -371,7 +379,7 @@ html{
 
 .items{
     /* border: 2px solid black; */
-    height: 50vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -380,7 +388,7 @@ html{
 }
 .btns{
     width: auto;
-    height: 10vh;
+    height: auto;
     font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -400,7 +408,8 @@ html{
 .workshops{
     /* border: 2px solid black; */
     overflow: hidden;
-    height: 100vh;
+    height: auto;
+    padding-bottom: 2em;
     text-align: center;
     color: rgb(51,51,51);
     font-family: "Jost",sans-serif;
@@ -417,6 +426,7 @@ html{
     color: #37517e;
     font-weight: bold;
     font-family: "Jost",sans-serif;
+
     /* border: 2px solid black; */
 }
 .workshops h1::before {
@@ -443,13 +453,13 @@ html{
 .workshops ul{
     /* border: 2px solid blue; */
     width: 100%;
-    height: 10vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    overflow: hidden;
 }
 .workshops ul li a{
     text-decoration: none;
@@ -482,13 +492,14 @@ html{
     text-align: center;
     color: rgb(51,51,51);
     width: 100%;
-    height: 110vh;
+    height: auto;
     overflow: hidden;
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2em;
 }
 .rnd h1{
     overflow: hidden;
@@ -529,7 +540,7 @@ html{
 .grid-container{
     /* border: 2px solid blue; */
     overflow: hidden;
-    height: 70vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -540,11 +551,12 @@ html{
     width: 95%;
     font-size: 0.75em;
     text-align: left;
-    height: 18vh;
+    height: auto;
     padding: 2em;
     color: rgb(51,51,51);
     background-color: white;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 .grid-container >div h2{
     color: #37517e;
@@ -635,7 +647,7 @@ html{
 }
 .form{
     width: 95%;
-    height: 90vh;
+    height: auto;
     border-top: 2px solid #47b2e4;
     border-bottom: 2px solid #47b2e4;
     border-radius: 10px;
@@ -650,7 +662,7 @@ html{
     display: flex;
     /* border: 2px solid red; */
     /* height: 100%; */
-    height: 25vh;
+    height: auto;
     flex-direction: column;
     text-align: left;
     font-size: 15px;
@@ -772,10 +784,11 @@ html{
     display: flex;
     flex-direction: column;
     padding: 2em 0;
+    overflow: hidden;
 }
 .links b{
     color: #37517e;
-
+    overflow: hidden;
 }
 .links  ul{
     display: flex;
