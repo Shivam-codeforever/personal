@@ -796,6 +796,7 @@ html{
     display: flex;
     flex-wrap: wrap;
     padding: 1em 0;
+    overflow: hidden;
 }
 .links ul li {
     list-style: none;
