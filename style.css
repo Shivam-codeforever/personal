@@ -43,6 +43,7 @@ html{
     border-radius: 1em;
     margin:4px 0;
 }
+
 .nav{
     position: fixed;
     /* top:0; */
@@ -751,7 +752,7 @@ html{
 /* Media queries for different screens */
 
 
-@media screen and (max-width:900px) {
+/* @media screen and (max-width:900px) {
     .navicon{
         display: flex;
     }
@@ -767,7 +768,7 @@ html{
     }
     .banner {
         /* margin: 4em 0 0 0 ; */
-        display: flex;
+        /* display: flex;
         justify-content: center;
         align-items: center;
         width: 90vw;
@@ -800,10 +801,10 @@ html{
     }
     .nav ul{
         /* width: max-width; */
-        display: none;
+        /* display: none;
     }
     .banner img{
         width: 40vw;
         height: 50vh;
     }
-}
+} */ 

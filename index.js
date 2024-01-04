@@ -13,18 +13,26 @@ function scrollFunction() {
 
 const icon = document.getElementById("icon");
 const cros = document.getElementById("cross");
-
+const ye = document.getElementById("ye");
 const navicon = () =>{
     icon.style.display = 'none';
     cros.style.display = 'flex';
+    ye.style.display = 'flex';
 }
 
 const cross = () =>{
     icon.style.display = 'flex';
     cros.style.display = 'none';
-
+    ye.style.display = 'none';
 }
 
+const close = () =>{
+    console.log("hello");
+    // event.preventDefault();
+    ye.style.display = 'none';
+    cros.style.display = 'none';
+    icon.style.display = 'flex';
+}
 
 
 

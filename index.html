@@ -4,13 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (min-width:600px) and (max-width:1500px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:600px)" href="mobile.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Website</title>
 </head>
 
 <body>
-    
+    <div class="ye" id="ye" onchange="close()">
+        <ul>
+            <li onclick="close()"><a href="#home" >Home</a></li>
+            <li><a href="#about" onclick="close()">About CREP</a></li>
+            <li><a href="#publication" onclick="close()">Publications</a></li>
+            <li><a href="#conn" onclick="close()">Connect Us</a></li>
+            <li><a href="#work" onclick="close()">Workshop & Events</a></li>
+            <li><a href="#coll" onclick="close()">Collaborations</a></li>
+            <li><a href="#rnd" onclick="close()">Research and Development</a></li>
+            <li><a href="#cont" onclick="close()">Contact</a></li>
+        </ul>
+    </div>
     <nav>
         <div class="nav" id="nav">
             <img src="abc.png" alt="" class="logo">
@@ -126,7 +138,7 @@
             </div>
         </div>
 
-        <div class="publication" id="publication" data-aos="fade-up">
+        <div class="publication" id="publication">
             <h1 data-aos="fade-up">PUBLICATIONS</h1>
             <div class="pb_content" data-aos="fade-up">
                 <h2>Publication Guidance</h2>
@@ -139,7 +151,7 @@
                     contribution to the larger scientific community.</p>
                 <br>
 
-                <div class="boxes" data-aos="fade-up-right">
+                <div class="boxes">
                     <div class="box" data-aos="fade-up-right">
                         <img src="" alt="">
                         <h2>Article writing</h2>
@@ -233,19 +245,22 @@
 
 
         <div class="collaboration conn" id="coll" data-aos="fade-up">
-            <div class="connection" data-aos="fade-up">
+            <div class="connection mobi" data-aos="fade-up">
                 <h1 data-aos="fade-up">Collaborations</h1>
                 <p data-aos="fade-up">International Conference on Technologies for Smart Green Connected Society 2021
                     (ICT-SGS-1)</p>
-                <div class="ite" data-aos="fade-up">
-                    <button class="btns">ICT-SGS-1</button>
-                    <button class="btns">A2Z JOURNALS
-                    </button>
+                <div class="asg">
+                    <div class="ite" data-aos="fade-up">
+                        <button class="btns">ICT-SGS-1</button>
+                        <button class="btns">A2Z JOURNALS
+                        </button>
+                    </div>
+                    <p data-aos="fade-up">A2Z Journals is involved in publishing open access, scholarly, peer reviewed,
+                        interdisciplinary,
+                        fully refereed and scientific online international journals</p>
                 </div>
-                <p data-aos="fade-up">A2Z Journals is involved in publishing open access, scholarly, peer reviewed,
-                    interdisciplinary,
-                    fully refereed and scientific online international journals</p>
             </div>
+
         </div>
 
 
@@ -253,28 +268,28 @@
             <h1 data-aos="fade-up">RESEARCH & DEVELOPMENT</h1>
             <h2 data-aos="fade-up">Journals</h2>
             <div class="grid-container" data-aos="fade-up">
-                <div data-aos="fade-up">
+                <div>
                     <h2>Peer-Reviewed (Refereed or Scholarly)</h2>
                     <p> • International Journal of Data Informatics and Intelligent computing (IJDIIC)
                     </p>
                     Journal Website: IJDIIC</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up">
+                <div>
                     <h2>Peer-Reviewed (Refereed or Scholarly)</h2>
                     <p> • International Journal of Data Informatics and Intelligent computing (IJDIIC)
                     </p>
                     Journal Website: IJDIIC</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up">
+                <div>
                     <h2>Peer-Reviewed (Refereed or Scholarly)</h2>
                     <p> • International Journal of Data Informatics and Intelligent computing (IJDIIC)
                     </p>
                     Journal Website: IJDIIC</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up">
+                <div>
                     <h2>Peer-Reviewed (Refereed or Scholarly)</h2>
                     <p> • International Journal of Data Informatics and Intelligent computing (IJDIIC)
                     </p>
@@ -527,7 +542,7 @@
             </p>
         </div>
     </footer>
-    <a href="#home"><img onclick="up" src="upbtn.png" class="upbtn"></a>
+    <a href="#home"><img  src="upbtn.png" class="upbtn" alt="btn"></a>
 
     <script src="index.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
