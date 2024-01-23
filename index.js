@@ -28,11 +28,14 @@ const cross = () =>{
 
 const close = () =>{
     console.log("hello");
-    // event.preventDefault();
     ye.style.display = 'none';
     cros.style.display = 'none';
     icon.style.display = 'flex';
 }
 
 
-
+ye.addEventListener('click',()=>{
+    ye.style.display = 'none';
+    cros.style.display = 'none';
+    icon.style.display = 'flex';
+})

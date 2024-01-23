@@ -209,6 +209,12 @@ html{
 .about{
     width: 100%;
     overflow: hidden;
+    height: auto;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* border: 2px solid black; */
 }
 .about h1{
@@ -219,6 +225,8 @@ html{
     font-weight: bold;
     font-family: "Jost",sans-serif;
     overflow: hidden;
+    height: auto;
+    width: 95vw;
 }
 
 .about h1::before {
@@ -228,7 +236,7 @@ html{
     width: 120px;
     height: 1px;
     background: #ddd;
-    bottom: -410px;
+    bottom: -459px;
     left: calc(50% - 60px);
 }
 .about h1::after {
@@ -238,7 +246,7 @@ html{
     width: 40px;
     height: 3px;
     background: #47b2e4;
-    bottom: -412px;
+    bottom: -460px;
     left: calc(50% - 20px);
 }
 
