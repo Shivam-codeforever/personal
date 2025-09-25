@@ -26,8 +26,9 @@ html{
     overflow: hidden;
 }
 .nav img{
-    width: 35vw;
+    width: 30vw;
     height: 10vh;
+    margin: 0.75em;
 }
 .navicon{
     display: flex;
@@ -786,8 +787,8 @@ html{
     padding: 1em;
 }
 .links img{
-    width: 40vw;
-    height: 10vh;
+    width: 35vw;
+    height: 12vh;
 }
 .links .right{
     /* border: 2px solid blue; */
